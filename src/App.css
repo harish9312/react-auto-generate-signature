@@ -1,6 +1,27 @@
-@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
 .App {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Select {
+    width: 100px;
+    text-align: left;
+}
+
+.signature-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .App-logo {
